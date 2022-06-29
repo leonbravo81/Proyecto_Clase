@@ -1,11 +1,14 @@
-package com.desarrollo.skills.entidades;
+package com.desarrollo.skills.dto;
 
 import lombok.Getter;
 import lombok.Setter;
-//Clase tipo entidad para guardar las profesiones de un profesional
+
+//Clase tipo Dto enmascarar los datos profesiones de un profesiona
+
 @Getter
 @Setter
-public class Profesiones {
+public class ProfesionesDto {
+
     private Long Id;
     private String Nombre;
     private boolean Estado;

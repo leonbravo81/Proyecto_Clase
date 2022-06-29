@@ -2,14 +2,13 @@ package com.desarrollo.skills.entidades;
 
 import lombok.Getter;
 import lombok.Setter;
-
-//Clase de tipo entidadpara guardar los tipos de documento
+//Clase de tipo entidad para guardar los tipos de identificacioon
 
 @Getter
 @Setter
-public class TipoIdentificacion{
+public class TipoIdentificacion {
     private Long Id;
-    private String nombre;
-    private boolean estado;
+    private String Nombre;
+    private boolean Estado;
 
 }
