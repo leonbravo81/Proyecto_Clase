@@ -3,6 +3,8 @@ import java.sql.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -16,6 +18,7 @@ import lombok.Setter;
 @Table (name="TBL_Profesional")
 public class Profesionales {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column (name="ID_Profesional")
     private Long Id;
     @Column (name="Nombre")
